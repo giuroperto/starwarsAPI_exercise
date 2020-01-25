@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.navbar {
+  background-color: #282c34;
+  color: lightgray;
+  padding: 20px 0px;
+}
+
+.charBox {
+  width: 230px;
+  padding: 20px;
+}
+
+.charDetails {
+  margin: 50px;
+}
